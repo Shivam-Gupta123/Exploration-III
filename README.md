@@ -1,2 +1,10 @@
-# Exploration-III
-The documentation of the third exploration activity conducted using the Crayola Bots provided.
+Exploration III :
+
+**PURPOSE**
+The purpose of this exploration was to use the Robot Positioning System (RPS) to drive a specified path and get the robot oriented at a certain angle.	 This consisted of reading positional values such as x, y, and heading values and using them to navigate the robot. Additionally, RPS data was collected by the SD card was used and logged during the course of this exploration.
+
+**SUMMARY AND RESULTS**
+The team first obtained the Q.R. code and placed it on the Crayola bot in the exact same orientation as that shown in Figure 8 of the Exploration 03 write-up. Next, code was added to the template provided, and then pushed to the SD card to get the Crayola to complete the navigational paths shown in Figure 7 of the Exploration 03 write-up. The Crayola bot drove from point A to point B and then turned 90 degrees counterclockwise only using RPS. Next the Crayola Bot, drove to point C and turned 180 degrees using shaft encoding. Finally, the robot drove to position D and turned 90 degrees clockwise using shaft encoding. At each destination, TA signatures were obtained and the x and or y positions were checked with the RPS and recorded. The results showed that for the most part, the RPS is returning values that are expected, with a few variances. For example, the expected values for point B were 27, 21, and 270 degrees for x, y, and heading respectively. The actual values were 28.8, 20.5, and 272.8 for x, y, and heading respectively. Despite these slight overall variances in the exploration, the Crayola was able to successfully complete the navigational course, and using RPS and SD card data logging was a success. 
+
+**APPLICATIONS**
+This exploration provided valuable insight on a navigational technique that can be used to complete the robot course. Although the team will use RPS to get to the kiosk floor light, RPS won’t be used as the main source of navigation because of its poor functionality in dead-zones and tight spaces like the lever station. Using the RPS in combination with shaft encoding will be a very effective method of navigation for our purposes. In addition to RPS, data logging can be used to obtain information mid-run, which would then be useful in correcting our robot, should it go off proper trajectory. Also, the team plans on mounting the Q.R. code at the ideal height of 9 inches above ground level in order to get the most accurate RPS reading from the robot course.
